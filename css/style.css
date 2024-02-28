@@ -124,7 +124,7 @@ header nav img {
 }
 
 header nav ul {
-    padding: 0 8rem;
+    padding: 0 1rem;
     list-style: none;
     display: flex;
     flex: 1;
@@ -209,7 +209,7 @@ h2 {
 
 .top-right {
     position: absolute;
-    transform: scale(0.9);
+    transform: scale(0.7);
     left: 79%;
     top: 150%;
 }
@@ -295,4 +295,19 @@ h4 {
     color: var(--primary-color);
     font-weight: bold;
     padding: 0.5em 0;
+}
+
+#last-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+#last-section section:first-child {
+    width:30%;
+}
+
+#last-section section:last-child {
+    width: 50%;
 }
