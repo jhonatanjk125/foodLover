@@ -11,6 +11,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: var(--font-color);
     background-color: transparent;
   }
+
+body {
+    background-color: var(--secondary-color);
+}
   
   *,
   *::before,
@@ -90,3 +94,25 @@ main section {
 p {
     font-weight: bold;
 }
+
+.second-section {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.second-section section {
+    margin: 5rem;
+    width: 50%;
+}
+
+.second-section section img {
+    width: 500px;
+    height: 500px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
