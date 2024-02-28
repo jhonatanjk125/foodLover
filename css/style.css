@@ -96,6 +96,7 @@ p {
 }
 
 .second-section {
+    margin-top: 4rem;
     height: 70vh;
     display: flex;
     align-items: center;
@@ -114,5 +115,38 @@ p {
 h2 {
     font-size: 40px;
     font-weight: 900;
+    margin-bottom: 0.8em;
 }
 
+.third-section {
+    margin-top: 20rem;
+    height: 130vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.top-right{
+    position:absolute;
+    transform: scale(0.9);
+    left: 79%;
+    top: 150%;
+}
+
+.middle {
+    width: 40%;
+}
+
+.bottom-left {
+    position:relative;
+    left: -50%;
+    top: 60%;
+}
+
+.bottom-right {
+    position:relative;
+    transform: scale(0.9);
+    left: 30%;
+    top: -45%;
+}
