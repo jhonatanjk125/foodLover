@@ -20,7 +20,7 @@ body {
   *::before,
   *::after{box-sizing:border-box;}
 
-.hero {
+#hero {
     height: 100vh;
     background-image: url(../storage/img/placeYourImageHere0.png);
     background-repeat: no-repeat;
@@ -95,19 +95,19 @@ p {
     font-weight: bold;
 }
 
-.second-section {
+#second-section {
     margin-top: 4rem;
     height: 70vh;
     display: flex;
     align-items: center;
 }
 
-.second-section section {
+#second-section section {
     margin: 5rem;
     width: 50%;
 }
 
-.second-section section img {
+#second-section section img {
     width: 500px;
     height: 500px;
 }
@@ -118,7 +118,7 @@ h2 {
     margin-bottom: 0.8em;
 }
 
-.third-section {
+#third-section {
     margin-top: 20rem;
     height: 130vh;
     display:flex;
@@ -151,7 +151,7 @@ h2 {
     top: -45%;
 }
 
-.food-gallery {
+#food-gallery {
     margin-top: 70vh;
     display:flex;
     justify-content: center;
@@ -159,11 +159,30 @@ h2 {
     padding-bottom: 40px;
 }
 
-.food-gallery > h2 {
+#food-gallery > h2 {
     text-align: center;
     width: 100%;
 }
 
-.food-gallery img {
+#food-gallery img {
     margin: 10px;
+}
+
+#fourth-section {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../storage/img/placeYourImageHereOur0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fourth-section section {
+    width: 50%;
+    padding: 4em 3em;
+    border: 5px solid var(--primary-color);
+    background-color: var(--background-color2);
+    max-width: 600px;
+    text-align: center;
 }
