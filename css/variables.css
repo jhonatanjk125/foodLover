@@ -1,8 +1,9 @@
 :root{
-    --color-primary: #e58f00;
-    --color-secondary: #17171e;
-    --color-tertiary: #323239;
-    --color-font: #fff;
+    --primary-color: #e58f00;
+    --secondary-color: #17171e;
+    --background-color: #323239ea;
+    --tertiary-color: #323239;
+    --font-color: #fff;
 }
 
 /* Fuente Click Aqui : https://fonts.google.com/specimen/Roboto+Slab?preview.text=Contact%20Us%20For&query=%5BAachen */
