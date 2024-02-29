@@ -136,6 +136,10 @@ header nav ul li {
     font-weight: bold;
 }
 
+a:hover {
+    color: var(--primary-color)
+}
+
 #home {
     color: var(--primary-color)
 }
@@ -177,8 +181,11 @@ main section:last-child {
 }
 
 main section p {
-    font-weight: bold;
     margin: 0 0 3em 0;
+}
+
+p {
+    font-weight: bold;
 }
 
 .cta-button {
@@ -187,6 +194,11 @@ main section p {
     font-weight: bold;
     border-radius: 0.2em;
     padding: 0.8em 2em;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
 }
 
 #second-section {
@@ -231,6 +243,7 @@ h2 {
 .middle {
     width: 20%;
     position: absolute;
+    top: 10%;
     left: 15%;
 }
 
@@ -268,7 +281,8 @@ h2 {
 
 #food-gallery img {
     margin: 10px;
-    width: 30%;
+    width: 25%;
+    height: 45vh;
 }
 
 #fourth-section {
@@ -356,4 +370,12 @@ footer nav {
 
 footer nav a {
     padding: 0 1em;
+}
+
+svg {
+    fill: var(--font-color);
+}
+
+svg:hover {
+    fill: var(--primary-color);
 }
