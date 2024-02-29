@@ -81,7 +81,6 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: "Roboto Slab", sans-serif;
     font-style: normal;
     font-size: 100%;
     font: inherit;
@@ -91,6 +90,7 @@ video {
 
 body {
     background-color: var(--secondary-color);
+    font-family: "Roboto Slab", sans-serif;
 }
 
 *,
@@ -199,36 +199,44 @@ h2 {
 }
 
 #third-section {
+    position: relative;
     margin-top: 20rem;
     height: 130vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%
+    width: 100%;
 }
 
 .top-right {
     position: absolute;
-    transform: scale(0.7);
-    left: 79%;
-    top: 150%;
+    right: 0%;
+    top: -40%;
 }
 
 .middle {
-    width: 40%;
+    width: 20%;
+    position: absolute;
+    left: 15%;
+}
+
+.middle-img img {
+    width: 100vw;
+    position: absolute;
+    left: 0%;
+    top: -25%;
 }
 
 .bottom-left {
-    position: relative;
-    left: -50%;
-    top: 60%;
+    position: absolute;
+    left: 0%;
+    bottom: -32%;
 }
 
 .bottom-right {
-    position: relative;
-    transform: scale(0.9);
-    left: 30%;
-    top: -45%;
+    position: absolute;
+    bottom: -35%;
+    right: 0%;
 }
 
 #food-gallery {
@@ -246,6 +254,7 @@ h2 {
 
 #food-gallery img {
     margin: 10px;
+    width: 30%;
 }
 
 #fourth-section {
@@ -298,6 +307,8 @@ h4 {
 }
 
 #last-section {
+    height: 500px;
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -306,8 +317,12 @@ h4 {
 
 #last-section section:first-child {
     width:30%;
+    position: absolute;
+    left: 0%;
 }
 
 #last-section section:last-child {
     width: 50%;
+    position: absolute;
+    left: 40%;
 }
